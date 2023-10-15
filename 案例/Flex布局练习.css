@@ -1,0 +1,57 @@
+#container{
+    width: 550px;
+    height: 300px;
+    border: 3px solid darkgray;
+    display: flex;
+    /* 决定主轴（main axis）的方向，项目元素默认按照主轴方向排列 */
+    flex-direction:row;
+    /* 项目元素过多进行换行的属性 */
+    flex-wrap: wrap;
+    /* 项目元素在主轴上的对齐方式 */
+    justify-content:space-evenly;
+    /* 项目元素在交叉轴（corss axis）上的对齐方式 */
+    /* align-items:center; */
+    /* 多跟主轴的项目元素的对齐方式 */
+    align-content:space-evenly;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container>div:nth-child(1){
+    background-color: red;
+    /* 定义项目的排列顺序。数值越小，排列越靠前，默认为0。 */
+    /* order: 1; */
+    /* 定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。*/
+    /* flex-grow: 1; */
+    /* 定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小 */
+    /* flex-shrink: 1; */
+
+}
+#container>div:nth-child(2){
+    background-color: blue;
+}
+#container>div:nth-child(3){
+    background-color: pink;
+}
+#container>div:nth-child(4){
+    background-color: yellow;
+}
+#container>div:nth-child(5){
+    background-color: aqua;
+}
+#container>div:nth-child(6){
+    background-color: darkcyan;
+}
+#container>div:nth-child(7){
+    background-color: olive;
+}
+#container>div:nth-child(8){
+    background-color: chartreuse;
+}
+#container>div:nth-child(9){
+    background-color: bisque;
+} 

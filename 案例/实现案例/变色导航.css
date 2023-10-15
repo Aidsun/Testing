@@ -1,0 +1,13 @@
+a{
+    padding: 20px;
+    margin: 10px 10px;
+    background-color:red;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+}
+a:hover{
+    background-color: green;
+}

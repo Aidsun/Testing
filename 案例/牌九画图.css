@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1000px;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+}
+.box{
+    margin-top: 20px;
+    width: 120px;
+    height: 320px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+.boxsilder{
+    width: 120px;
+    height: 170px;
+    display: block;
+    margin: 2px;
+}
+.black{
+    
+    background-color: rgb(255, 255, 255);
+}
+.red{
+    background-color: red;
+}
+span{
+    width: 50px;
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+}
+#one .boxsilder:nth-child(1){
+    display:grid;
+    flex-wrap: wrap;
+}
+#one .boxsilder:nth-child(2){
+    display: grid;
+}
+#two .boxsilder:nth-child(1){
+    display:grid;
+    flex-wrap: wrap;
+}
+#two .boxsilder:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:end;
+}
+#three .boxsilder:nth-child(1){
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#three .boxsilder:nth-child(2){
+    display:flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+}
+#four .boxsilder:nth-child(1){
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#four .boxsilder:nth-child(2){
+    display:flex;
+    flex-wrap: wrap-reverse;    
+    justify-content: space-evenly;
+}
+#five .boxsilder{
+    width: 120px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 16px;
+}
+#five .boxsilder div{
+    display: flex;
+    margin: 5px auto;
+    gap: 5px;
+}
+#six .boxsilder div:nth-child(1),
+#six .boxsilder div:nth-child(3),
+#six .boxsilder:nth-child(2) div:nth-child(1),
+#six .boxsilder:nth-child(2) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#six .boxsilder div:nth-child(2),
+#six .boxsilder:nth-child(2) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#seven .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#seven .boxsilder:nth-child(2) div:nth-child(1),
+#seven .boxsilder:nth-child(2) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#seven .boxsilder:nth-child(2) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#eight .boxsilder:nth-child(1) div:nth-child(1),
+#eight .boxsilder:nth-child(1) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#eight .boxsilder:nth-child(1) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#eight .boxsilder:nth-child(2){
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: flex-;
+    justify-content:space-evenly;
+}
+#nine .boxsilder:nth-child(1){
+    display:grid;
+    flex-wrap: wrap;
+}
+#nine .boxsilder:nth-child(2) div:nth-child(1),
+#nine .boxsilder:nth-child(2) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nine .boxsilder:nth-child(2) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+#ten .boxsilder:nth-child(1) div:nth-child(1),
+#ten .boxsilder:nth-child(1) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ten .boxsilder:nth-child(1) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#ten .boxsilder:nth-child(2){
+    display:flex;
+    flex-wrap: wrap-reverse;    
+    justify-content: space-evenly;
+}
+#eleven .boxsilder:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+}
+#eleven .boxsilder:nth-child(2){
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+#twelve .boxsilder:nth-child(1){
+    display: grid;
+    justify-content: center;
+}
+#twelve .boxsilder:nth-child(2){
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+#threeth .boxsilder:nth-child(1){
+    display: grid;
+    justify-content: center;
+}
+#threeth .boxsilder:nth-child(2){
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+#fourth .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#fourth .boxsilder:nth-child(2){
+    display:grid;
+    flex-wrap: wrap;
+}
+#fivth .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -33px;
+    justify-content: space-evenly;
+    align-content:center;
+}
+#fivth .boxsilder:nth-child(2){
+    display:flex;
+    flex-wrap: wrap-reverse;    
+    justify-content: space-evenly;
+}
+#sixth .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -33px;
+    justify-content: space-evenly;
+    align-content:center;
+}
+#sixth .boxsilder:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#seventh .boxsilder:nth-child(1),
+#seventh .boxsilder:nth-child(2){
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#eighth .boxsilder:nth-child(1){
+    display: grid;
+    justify-content: center;
+}
+#eighth .boxsilder:nth-child(2) div:nth-child(1),
+#eighth .boxsilder:nth-child(2) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#eighth .boxsilder:nth-child(2) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#ninth .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#ninth .boxsilder:nth-child(2){
+    display:flex;
+    flex-wrap: wrap-reverse;    
+    justify-content: space-evenly;
+}
+#twenty .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -33px;
+    justify-content: space-evenly;
+    align-content:center;
+}
+#twenty .boxsilder:nth-child(2){
+    display:grid;
+    flex-wrap: wrap;
+}
+#twenty_one .boxsilder:nth-child(1) div:nth-child(1),
+#twenty_one .boxsilder:nth-child(1) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#twenty_one .boxsilder:nth-child(1) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#twenty_one .boxsilder:nth-child(2){
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+#twenty_two .boxsilder:nth-child(1) div:nth-child(1),
+#twenty_two .boxsilder:nth-child(1) div:nth-child(3)
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#twenty_two .boxsilder:nth-child(1) div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#twenty_two .boxsilder:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#twenty_three .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#twenty_three .boxsilder:nth-child(2){
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+#twenty_four .boxsilder:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#twenty_four .boxsilder:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:end;
+}
+#twenty_five .boxsilder:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+}
+#twenty_five .boxsilder:nth-child(2){
+    display:grid;
+    flex-wrap: wrap;
+}

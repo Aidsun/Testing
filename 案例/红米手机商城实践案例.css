@@ -1,0 +1,92 @@
+#top{
+    margin: 0 auto;
+    width: 80%;
+    height: 20px;
+    color: transparent;
+    font-size: 20px;
+    font-weight: 250;
+    font-family: '宋体',sans-serif;
+    border-radius: 10px;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#Redmi{
+    margin-left: 10%;
+    float: right;
+
+}
+#Xiaomi{
+    margin-right: 10%;
+    float:left
+}
+#container{
+    width: 80%;
+    height: 50%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px 20px;
+    place-self: center;
+    filter: drop-shadow(3px 3px 3px rgb(157, 157, 157));
+    border-radius: 10px;
+}
+.item{
+
+    justify-self: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: white;
+}
+.item-1{
+    background-color: rgb(255, 255, 255);
+    grid-column-start: span 1;
+    grid-row-start: span 2;
+}
+/*
+.item-2{
+    background-color: rgb(255, 255, 255);
+}
+.item-3{
+    background-color: rgb(255, 255, 255);
+}
+.item-4{
+    background-color: rgb(255, 255, 255);
+}
+.item-5{
+    background-color: rgb(255, 255, 255);
+}
+.item-6{
+    background-color: rgb(255, 255, 255);
+}
+.item-7{
+    background-color: rgb(255, 255, 255);
+}
+.item-8{
+    background-color: rgb(255, 255, 255);
+}
+.item-9{
+    background-color: rgb(255, 255, 255);
+} */
+p{
+    display:block;
+    text-align: center;
+    font-size: 20px;
+    font-family: '宋体',sans-serif;
+    color: darkgray;
+}
+label{
+    text-align: center;
+}
+span{
+    font-size: 18px;
+    color: black;
+}
+del{
+    font-size: 15px;
+    color: red;
+}

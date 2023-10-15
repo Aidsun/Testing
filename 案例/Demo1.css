@@ -1,0 +1,51 @@
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div1{
+
+    border: 20px;
+    border-radius: 2px;
+    background-color: antiquewhite;
+    margin: 20px;
+    height: 450px;
+    width: 600px;
+
+
+}
+div p{
+    text-align: center;
+    font-size: large;
+}
+ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-family: '楷书','微软雅黑',sans-serif;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 15px;
+}
+ul li:hover{
+background-color:bisque;
+}
+#one{
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    width:80px;
+    height: 80px;
+    background-color:rgb(169, 169, 169,0.32);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position:fixed;
+}

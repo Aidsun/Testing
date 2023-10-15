@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#greenCard,#greenCard ul{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 20px auto;
+}
+#greenCard ul li{
+    list-style: none;
+    width: 150px;
+    height: 300px;
+    background-color: rgb(3, 230, 3);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#greenCard ul li:nth-child(1):hover{
+    transform: translate(20px,20px);
+}
+#greenCard ul li:nth-child(2):hover{
+    transform: translateX(20px);
+}
+#greenCard ul li:nth-child(3):hover{
+    transform: translateY(20px);
+}
+#greenCard ul li:nth-child(4):hover{
+    transform: scale(0.5,1.2);
+}
+#greenCard ul li:nth-child(5):hover{
+    transform: scaleX(0.5);
+}
+#greenCard ul li:nth-child(6):hover{
+    transform: scaleY(1.2);
+}
+#greenCard ul li:nth-child(7):hover{
+    transform: skew(20deg,20deg);
+}
+#greenCard ul li:nth-child(8):hover{
+    transform: skewX(20deg);
+}
+#greenCard ul li:nth-child(9):hover{
+    transform: skewY(20deg);
+}
+#greenCard ul li:nth-child(10):hover{
+    transform: rotateX(45deg);
+}
+#greenCard ul li:nth-child(11):hover{
+    transform: rotateY(45deg);
+}
+#greenCard ul li:nth-child(12):hover{
+    transform: rotateZ(45deg);
+}

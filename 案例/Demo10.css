@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#qqmethod{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.fa-wechat{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 100;
+}
+i{
+    background-color: aqua;
+    padding: 50px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);    
+}
+i:hover{
+    /* animation: xuanzhuangX 2s 1 forwards; */
+    animation-delay: 5s;
+    animation: xuanzhuangY 2s 1 forwards;
+    }
+
+@keyframes xuanzhuangX {
+    100%{
+        transform: rotateX(-360deg);
+    }
+}
+
+@keyframes xuanzhuangY{
+    50%{color: aqua;}
+    100%{
+        color: aqua;
+        transform: rotateY(180deg);
+    }
+}

@@ -1,0 +1,33 @@
+#one{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 50%;
+    border-top-color: white;
+    margin: 100px auto;
+    animation: loading .6s linear 0s infinite;
+    position: relative;
+}
+div p{
+    position: absolute;
+    animation: pp .6s linear 0s infinite;
+  }
+@keyframes pp {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+@keyframes loading {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-1turn);
+    }
+}

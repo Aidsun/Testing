@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#qqmethod{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.fa-qq{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 100;
+}
+i{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(176, 176, 176);
+
+}  
+i:hover{
+    animation: qqm 2s 1;
+    animation-fill-mode: forwards;
+    animation-duration: normal;
+}
+@keyframes qqm{
+    1%{
+        box-shadow: 3px 3px 5px rgb(255, 255, 255);
+    }
+    75%{
+        box-shadow: 3px 3px 5px rgb(206, 206, 206);
+    }
+    100%{
+    transform: rotate(360deg);
+    box-shadow: 3px 3px 5px rgb(176, 176, 176);
+    }
+}

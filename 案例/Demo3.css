@@ -1,0 +1,17 @@
+body{
+    background-color:beige;
+    /* background-image: url("C:\\Users\\29816\\Pictures\\Camera Roll\\桌面壁纸.png"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(213, 220, 193);
+}
+img{
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+.sider{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}

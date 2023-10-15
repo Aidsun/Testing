@@ -1,0 +1,35 @@
+a{  
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+a:lilnk{
+    color:black;
+}
+a:visited{
+    color:darkgray;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:red
+}
+body{
+    font-family: "宋体";
+    position: relative;
+    opacity: 0.5;
+    margin-top: 20%;
+    height: 90px;
+    background-image: linear-gradient(to left,  rgb(17, 217, 252), yellow, pink, blue);
+    background-size: 1400vw auto;
+    animation: rainbow 15s linear infinite;
+  }
+
+  @keyframes rainbow {
+    0% { background-position: 0% }
+    100% { background-position: 100% }
+  }
