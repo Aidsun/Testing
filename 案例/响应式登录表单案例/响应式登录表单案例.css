@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,#65CBF7,#B3A5FC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: '楷体',sans-serif;
+    font-size: 30px;
+}
+.box{
+    width: 600px;
+    height: 450px;
+    margin:auto;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 300px;
+    height: 450px;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.right{
+    width: 300px;
+    height: 450px;
+    background-color: rgba(255, 255, 255,0.5);
+    box-sizing: border-box;
+    padding: 0 20px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding-top: 60px;
+    margin-top:  0px;
+    padding-bottom: 50px;
+}
+input[class="name"],input[class="password"]{
+    width: 80%;
+    height: 35px;
+    margin:  5px auto;
+    padding-left: 15px;
+    margin-top:25px;
+    border:none;
+    border-radius: 30px;
+    outline: none;
+    background-color: rgba(255, 255, 255,0.5);
+    color:rgb(124, 124, 124);
+}
+input[type="button"]{
+    width: 90px;
+    height: 30px;
+    background-color: #bfb6ed;
+    border:none;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* 适应pc端 */
+@media  screen and (min-width:960px) {
+
+}
+/* 适应ipad */
+@media  screen and (max-width:960px) {
+    
+}
+/* 适应移动端 */
+@media  screen and (max-width:750px) {
+    .box{
+        width: 85%;
+        display: inline-block;
+        margin: auto;
+    }
+    .left{
+        height: 40%;
+        overflow: hidden;
+    }
+    .left img{
+        object-fit:cover;
+    }
+    .right{
+        height: 60%;
+    }
+    h3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    input[class="name"],input[class="password"]{
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    input[type="button"]{
+        margin-top: 10px;
+    }
+}
