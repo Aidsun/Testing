@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易计算器</title>
+    <link rel="stylesheet" href="简易计算器.css">
+</head>
+
+<body>
+    <div id="box">
+        <!-- 输入框 -->
+        <div id="text"><input type="text"></div>
+        <!-- 计算机表盘 -->
+        <div id="from">
+            <div onclick="clearToText()">AC</div>
+            <div onclick="addToText('%')">%</div>
+            <div onclick="addToText('÷')">÷</div>
+            <div onclick="addToText('7')">7</div>
+            <div onclick="addToText('8')">8</div>
+            <div onclick="addToText('9')">9</div>
+            <div onclick="addToText('×')">×</div>
+            <div onclick="addToText('4')">4</div>
+            <div onclick="addToText('5')">5</div>
+            <div onclick="addToText('6')">6</div>
+            <div onclick="addToText('-')">-</div>
+            <div onclick="addToText('1')">1</div>
+            <div onclick="addToText('2')">2</div>
+            <div onclick="addToText('3')">3</div>
+            <div onclick="addToText('+')">+</div>
+            <div onclick="delToText()">Del</div>
+            <div onclick="addToText('0')">0</div>
+            <div onclick="addToText('.')">.</div>
+            <div onclick="calcToText()">=</div>
+        </div>
+    </div>
+    <script src="简易计算器.js"></script>
+</body>
+
+
+</html>

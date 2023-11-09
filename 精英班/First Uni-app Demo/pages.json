@@ -1,17 +1,85 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
 		{
-			"path": "pages/index/index",
-			"style": {
-				
-			}
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "登录界面",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/shouye/shouye"
+		},
+		{
+			"path": "pages/xiaoxi/xiaoxi"
 		}
-	],
+	    ,{
+            "path" : "pages/dianpu/dianpu"
+          
+        }
+        ,{
+            "path" : "pages/gerenzhongxin/gerenzhongxin"           
+        }
+		
+        ,{
+            "path" : "pages/shequhuodong/shequhuodong"            
+        }
+        ,{
+            "path" : "pages/enroll/enroll"   ,
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "注册界面",
+		        "enablePullDownRefresh": false
+		    }
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "First Uni-app Demo",
-		"navigationBarBackgroundColor": "#55ff7f",
-		"backgroundColor": "#e5ffac"
+		"navigationBarBackgroundColor": "skyblue",
+		"backgroundColor": "skyblue"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "black",
+		"borderStyle": "white",
+		"backgroundColor": "white",
+		"fontSize": "10px",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/shouye/shouye",
+				"iconPath": "static/shouye-zhihui.png",
+				"selectedIconPath": "static/shouye-zhihui_.png"
+			},
+			{
+				"text": "社区",
+				"pagePath": "pages/shequhuodong/shequhuodong",
+				"iconPath": "static/shequhuodong.png",
+				"selectedIconPath": "static/shequhuodong_.png"
+			},
+
+			{
+				"text": "消息",
+				"pagePath": "pages/xiaoxi/xiaoxi",
+				"iconPath": "static/xiaoxi-zhihui.png",
+				"selectedIconPath": "static/xiaoxi-zhihui_.png"
+			},
+			{
+				"text": "店铺",
+				"pagePath": "pages/dianpu/dianpu",
+				"iconPath": "static/dianpu.png",
+				"selectedIconPath": "static/dianpu_.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/gerenzhongxin/gerenzhongxin",
+				"iconPath": "static/gerenzhongxin-zhihui.png",
+				"selectedIconPath": "static/gerenzhongxin-zhihui_.png"
+			}
+		]
+	}
 }

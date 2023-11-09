@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: '宋体';
+}
+
+#top {
+    width: 100%;
+    height: calc(10vh - 10px);
+    background-color: rgb(0, 169, 255);
+}
+
+#topbox {
+    width: 75vw;
+    height: calc(10vh - 10px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topbox div:nth-child(1) {
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+#topbox div:nth-child(1) img {
+    width: 146px;
+    height: 38px;
+    margin-right: calc(10vh - 10px);
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#search input {
+    width: calc(25vw);
+    height: 30px;
+    border-style: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 40px;
+    background-color: rgb(77, 194, 255);
+    padding-left: 5vh;
+    outline: none;
+    z-index: 1;
+}
+
+.fa.fa-search {
+    width: 10px;
+    font-size: 16px;
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+}
+
+#topbox div:nth-child(2) {
+    width: 20vw;
+
+}
+
+#topbox div:nth-child(3) {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#topbox div:nth-child(3) a {
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.9;
+    display: inline-block;
+    margin-right: 30px;
+    min-width: 52px;
+    text-align: center;
+    width: 70px;
+    text-decoration: none;
+}
+
+#topbox div:nth-child(3) div button {
+    width: 70px;
+    margin-left: 30px;
+    border-style: none;
+    border-radius: 15px;
+    font-size: 16px;
+    line-height: 30px;
+    background: #fff;
+    color: #00A9FF;
+    text-align: center;
+    cursor: pointer;
+}
+
+#havour {
+    width: 100%;
+    height: 7vh;
+    background: rgba(0, 169, 255, 0.04);
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#havour ul {
+    width: 75vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#havour ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+#havour ul li a {
+    color: black;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+
+}
+
+#havour ul li:nth-child(1) {
+    background-color: #00A9FF;
+    width: 60px;
+    height: 25px;
+    border-radius: 19px;
+}
+
+#havour ul li:nth-child(1) a {
+    color: white;
+}
+
+#havour ul li:nth-child(1) a:hover {
+    color: white;
+}
+
+#havour ul li a:hover {
+    color: #00A9FF;
+}
+
+#more {
+    position: relative;
+    background-color: #00A9FF;
+    width: 60px;
+    height: 25px;
+    border-radius: 19px;
+    font-size: 15px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#tranImage {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    top: -7vh;
+    z-index: -1;
+}
+
+#tranImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#tranImage .up,
+#tranImage .down {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(83, 82, 82, 0.5);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#tranImage .down {
+    right: 10px;
+}
+
+#tranImage .up {
+    left: 10px;
+}
+
+#havourBottom{
+    width: 100%;
+    height: 7vh;
+    background: rgba(0, 169, 255, 0.04);
+    position: relative;
+    left: 0;
+    top: -14vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+#havourBottom ul{
+    width: 55vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+#havourBottom ul li :hover{
+    color: black;
+}

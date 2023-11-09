@@ -1,0 +1,75 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+.box {
+    position: relative;
+    width: 180px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 255, 0.5));
+}
+
+.box:hover {
+    animation: rotate3D 0.5s linear;
+}
+
+.box h2 {
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px rgb(132, 47, 47);
+    z-index: 1;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120%;
+    background: linear-gradient(#00ccff, #d500f9);
+    animation: rotate 4s linear infinite;
+
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    background: #0e1538;
+    inset: 5px;
+    border-radius: 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate3D {
+    25% {
+        transform: rotateZ(10deg);
+    }
+
+    50% {
+        transform: rotateZ(-10deg);
+    }
+
+    75% {
+        transform: rotateZ(10deg);
+    }
+
+}
