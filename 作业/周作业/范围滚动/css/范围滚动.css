@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://img.zcool.cn/community/0102a15c481450a801213f26dea77c.png@3000w_1l_2o_100sh.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.con {
+	width: 600px;
+	height: 500px;
+	margin: 50px auto;
+	border: none;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+.list {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+
+.list li {
+	position: absolute;
+	width: 94px;
+	height: 94px;
+	margin: 1px;
+	border: 5px solid rgb(209, 147, 94);
+	border-radius: 15px;
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.list li:nth-child(20){
+	background-image:url("../images/猫.png");
+}
+.list li:nth-child(2){
+	background-image:url("../images/马.png");
+}
+.list li:nth-child(3){
+	background-image:url("../images/可乐.png");
+}
+.list li:nth-child(4){
+	background-image:url("../images/咖啡.png");
+}
+.list li:nth-child(5){
+	background-image:url("../images/大象.png");
+}
+.list li:nth-child(6){
+	background-image:url("../images/小鸡.png");
+}
+.list li:nth-child(7){
+	background-image:url("../images/果汁.png");
+}
+.list li:nth-child(8){
+	background-image:url("../images/熊猫.png");
+}
+.list li:nth-child(9){
+	background-image:url("../images/电脑.png");
+}
+.list li:nth-child(10){
+	background-image:url("../images/糖果.png");
+}
+.list li:nth-child(11){
+	background-image:url("../images/芒果.png");
+}
+.list li:nth-child(12){
+	background-image:url("../images/薯条.png");
+}
+.list li:nth-child(13){
+	background-image:url("../images/西瓜.png");
+}
+.list li:nth-child(14){
+	background-image:url("../images/零食.png");
+}
+.list li:nth-child(15){
+	background-image:url("../images/青蛙.png");
+}
+.list li:nth-child(16){
+	background-image:url("../images/骨头.png");
+}
+.list li:nth-child(17){
+	background-image:url("../images/扑克牌.png");
+}
+.list li:nth-child(18){
+	background-image:url("../images/水果卷.png");
+}
+.list li:nth-child(19){
+	background-image:url("../images/火龙果.png");
+}
+#run {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	border-radius: 10px;
+	background-color:rgba(122, 155, 122,0.8);
+	z-index: 999;
+}
+
+#btn {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	line-height: 100px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgba(0,0,255,0.7);
+	font-family: '宋体','楷体';
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}

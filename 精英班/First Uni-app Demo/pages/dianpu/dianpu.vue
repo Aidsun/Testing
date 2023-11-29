@@ -1,6 +1,10 @@
 <template>
 	<view>
-		<h3>这是店铺界面</h3>
+	<view class="content">
+		<view class="head">
+			<h1>生鲜市场</h1>
+		</view>
+	</view>
 	</view>
 </template>
 
@@ -15,12 +19,5 @@
 </script>
 
 <style lang="scss">
-h3{
-	font-size: 50rpx;
-	font-weight: 100;
-	color: deepskyblue;
-	text-align: center;
-	margin-top: 200rpx;
-	font-family: "楷体";
-}
+	
 </style>

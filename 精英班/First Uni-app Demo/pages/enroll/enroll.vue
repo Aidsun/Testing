@@ -28,7 +28,7 @@
 
 		</view>
 		<view id="Transform">
-			<navigator url="#" >
+			<navigator url="/pages/login/login" >
 				<button type="default" @click="_register">注册</button>
 			</navigator>
 		</view>

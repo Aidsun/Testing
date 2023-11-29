@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: calc(80vw - 100px);
+    height: calc(50vw - 100px);
+    background-color: transparent;
+    position: relative;
+
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 10%;
+}
+
+#content>li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 设置默认的透明度为0 */
+    opacity: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+#left {
+    width: 3vw;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(50px);
+    text-align: center;
+    line-height: 8vh;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    backdrop-filter: blur(50px);
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#right {
+    width: 3vw;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255);
+    backdrop-filter: blur(50px);
+    text-align: center;
+    line-height: 8vh;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    backdrop-filter: blur(50px);
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#lis {
+    width: 40%;
+    height: 4vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3vh;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#lis li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    backdrop-filter: blur(1vh);
+    font-size: 14px;
+}

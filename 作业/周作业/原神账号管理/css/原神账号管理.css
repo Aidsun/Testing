@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    /* display: flex; */
+    background-image: url('https://ys.mihoyo.com/main/_nuxt/img/5c125a1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box{
+    width: 85%;
+    height: 500px;
+    border: 1px solid black;
+    display: block;
+    position: relative;
+    border: none;
+}
+#ipt{
+    width: 90%;
+    height: 50px;
+    border: none;
+    background-color: rgb(32, 173, 220,0.6);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    backdrop-filter: blur(50px);
+}
+#ipt input{
+    width: 17vw;
+    height: 20px;
+    outline: none;
+    padding-left: 8px;
+    border-radius: 5px;
+    border:none;
+}
+#ipt label{
+    font-size: 14px;
+}
+#ipt button{
+    width: 3vw;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #10eac2;
+}
+#content{
+    width: 100%;
+    height: 450px;
+    background-color: transparent;
+    display: block;
+    border: none;
+}
+.demo{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    position: relative;
+    background-color: rgba(193, 193, 193, 0.5);
+    border-radius: 10px;
+    margin: 10px auto;
+    animation: outshow 0.6s ease-out;
+}
+@keyframes outshow {
+    0%{
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.demo input{
+    width: 13vw;
+    height: 20px;
+    outline: none;
+    padding-left: 8px;
+    border-radius: 5px;
+    border:none;
+    margin: 0 auto;
+    filter: drop-shadow(2px 2px 5px white);
+}
+.count,.name,.password,.message,.control{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.control button{
+    width: 35px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.upDate{
+    background-color: yellow;
+}
+.delDate{
+    background-color: red;
+}
+#top{
+    width: 100%;
+    height: 15vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 3em;
+    font-family: '宋体';
+    letter-spacing: 10px;
+    position: relative;
+}
+#leftContent{
+    width: 30vh;
+    height: 85vh;
+    background-color:transparent;
+    text-align: center;
+}
+#leftContent img{
+    width: 42.8vh;
+
+}
+#main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+    color: black;
+    font-size: 25px;
+}
+
+button {
+    width: 66px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: greenyellow;
+}

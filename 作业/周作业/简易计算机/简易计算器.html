@@ -5,37 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>简易计算器</title>
-    <link rel="stylesheet" href="简易计算器.css">
+    <link rel="stylesheet" href="./css/简易计算器.css">
 </head>
 
 <body>
-    <div id="box">
-        <!-- 输入框 -->
-        <div id="text"><input type="text"></div>
-        <!-- 计算机表盘 -->
-        <div id="from">
-            <div onclick="clearToText()">AC</div>
-            <div onclick="addToText('%')">%</div>
-            <div onclick="addToText('÷')">÷</div>
-            <div onclick="addToText('7')">7</div>
-            <div onclick="addToText('8')">8</div>
-            <div onclick="addToText('9')">9</div>
-            <div onclick="addToText('×')">×</div>
-            <div onclick="addToText('4')">4</div>
-            <div onclick="addToText('5')">5</div>
-            <div onclick="addToText('6')">6</div>
-            <div onclick="addToText('-')">-</div>
-            <div onclick="addToText('1')">1</div>
-            <div onclick="addToText('2')">2</div>
-            <div onclick="addToText('3')">3</div>
-            <div onclick="addToText('+')">+</div>
-            <div onclick="delToText()">Del</div>
-            <div onclick="addToText('0')">0</div>
-            <div onclick="addToText('.')">.</div>
-            <div onclick="calcToText()">=</div>
+    <div class="logo">
+        <img src="./image/xiaomiLogo.png">
+        <h6>小米移动端计算器</h6>
+    </div>
+    <div class="calculator">
+        <div class="result">
+            <input type="text" id="resultField" disabled>
+        </div>
+        <div class="from">
+            <div class="button" onclick="clearResult()">AC</div>
+            <div class="button" onclick="appendToResult('%')">%</div>
+            <div class="button" onclick="appendToResult('/')">/</div>
+            <div class="button" onclick="appendToResult('7')">7</div>
+            <div class="button" onclick="appendToResult('8')">8</div>
+            <div class="button" onclick="appendToResult('9')">9</div>
+            <div class="button" onclick="appendToResult('*')">*</div>
+            <div class="button" onclick="appendToResult('4')">4</div>
+            <div class="button" onclick="appendToResult('5')">5</div>
+            <div class="button" onclick="appendToResult('6')">6</div>
+            <div class="button" onclick="appendToResult('-')">-</div>
+            <div class="button" onclick="appendToResult('1')">1</div>
+            <div class="button" onclick="appendToResult('2')">2</div>
+            <div class="button" onclick="appendToResult('3')">3</div>
+            <div class="button" onclick="appendToResult('+')">+</div>
+            <div class="button" onclick="delResult()">Del</div>
+            <div class="button" onclick="appendToResult('0')">0</div>
+            <div class="button" onclick="appendToResult('.')">.</div>
+            <div class="button" onclick="calculate()">=</div>
         </div>
     </div>
-    <script src="简易计算器.js"></script>
+    <script src="./js/简易计算器.js"></script>
 </body>
 
 

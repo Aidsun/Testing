@@ -1,0 +1,206 @@
+/* 源码由Aidsun编写，转载请注明出处 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    perspective: 1200px;
+    perspective-origin: center top;
+}
+#tips{
+    position: absolute;
+    top: 13vh;
+    display: block;
+    color: red;
+    font-size: 19px;
+    font-family: '宋体';
+}
+#music {
+    width: 400px;
+    height: 420px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+
+    border: none;
+    backdrop-filter: blur(10px);
+    transform-style: preserve-3d;
+    transform: rotateY(-20deg);
+}
+
+#music p {
+    width: 90%;
+    height: 20px;
+    background-color: transparent;
+    color: rgb(179, 233, 232);
+    margin: 10px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content {
+    width: 90%;
+    height: 80%;
+    background-color: transparent;
+    border-radius: 2vw;
+    overflow: hidden;
+    margin: auto;
+    color: white;
+    filter: drop-shadow(3px 3px 3px rgb(229, 229, 229));
+}
+
+.content ul {
+    list-style: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.content li {
+    text-align: center;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    transition: 0.6s;
+    word-wrap: break-word;
+}
+
+.content li.active {
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(255, 208, 208);
+    transform: scale(1.2);
+}
+
+audio {
+    width: 80%;
+    margin: 10px;
+}
+
+#control {
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#startMusic {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.inner {
+    width: 604px;
+    height: 355px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(20deg);
+    -webkit-box-reflect: below 1vh -webkit-linear-gradient(transparent 5%, rgba(233, 255, 255, 0.2));
+}
+
+.banner {
+    width: calc(100% * 18);
+    height: 100%;
+}
+
+.banner>li {
+    width: calc(100% / 18);
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner>li:nth-child(1) {
+    background-image: url(../images/1.webp);
+}
+
+.banner>li:nth-child(2) {
+    background-image: url(../images/2.webp);
+}
+
+.banner>li:nth-child(3) {
+    background-image: url(../images/3.webp);
+}
+
+.banner>li:nth-child(4) {
+    background-image: url(../images/4.webp);
+}
+
+.banner>li:nth-child(5) {
+    background-image: url(../images/5.webp);
+}
+
+.banner>li:nth-child(6) {
+    background-image: url(../images/6.webp);
+}
+
+.banner>li:nth-child(7) {
+    background-image: url(../images/7.webp);
+}
+
+.banner>li:nth-child(8) {
+    background-image: url(../images/8.webp);
+}
+
+.banner>li:nth-child(9) {
+    background-image: url(../images/9.webp);
+}
+
+.banner>li:nth-child(10) {
+    background-image: url(../images/10.webp);
+}
+
+.banner>li:nth-child(11) {
+    background-image: url(../images/11.webp);
+}
+
+.banner>li:nth-child(12) {
+    background-image: url(../images/12.webp);
+}
+
+.banner>li:nth-child(13) {
+    background-image: url(../images/13.webp);
+}
+
+.banner>li:nth-child(14) {
+    background-image: url(../images/14.webp);
+}
+
+.banner>li:nth-child(15) {
+    background-image: url(../images/15.webp);
+}
+
+.banner>li:nth-child(16) {
+    background-image: url(../images/16.webp);
+}
+
+.banner>li:nth-child(17) {
+    background-image: url(../images/17.webp);
+}
+
+.banner>li:nth-child(18) {
+    background-image: url(../images/1.webp);
+}

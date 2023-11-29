@@ -51,11 +51,19 @@
 						icon: 'success'
 					})
 					uni.switchTab({
-						url:'/pages/dianpu/dianpu'
+						url: '/pages/dianpu/dianpu'
 					})
 				}
 
 			},
+			fail:(err) =>{
+				uni.showToast({
+					title: '账号不存在',
+					icon: 'error'
+				})
+			}
+			
+
 		})
 	}
 </script>

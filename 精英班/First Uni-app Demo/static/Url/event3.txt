@@ -1,0 +1,1 @@
+https://github.com/su77ungr/CASALIOY#-the-fastest-toolkit-for-air-gapped-llms-with-langchain--llamacpp--qdrant

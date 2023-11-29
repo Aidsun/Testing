@@ -1,0 +1,134 @@
+/* 案例由Aidsun原创，转载请注明出处  */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom left, pink, blue);
+
+}
+
+#box {
+
+    width: 300px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#message {
+    width: 300px;
+    height: 70px;
+    background-color: rgba(36, 185, 239, 0.5);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 2px 2px rgb(195, 195, 195));
+}
+
+#message div:first-child {
+    width: 80px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+#message img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+#name {
+    width: 50px;
+    height: 15px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+#ipt {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: '宋体';
+    filter: drop-shadow(2px 2px 2px rgb(130, 130, 130));
+}
+
+#content {
+
+    width: 300px;
+    height: 380px;
+    background-color: rgb(227, 244, 244, 0.5);
+    border-radius: 0 0 10px 10px;
+    border: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    filter: drop-shadow(2px 2px 2px rgb(220, 214, 214))
+}
+
+.news {
+    width: 250px;
+    height: 60px;
+    background-color: rgba(209, 209, 209, 0.1);
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(2px 2px 2px rgb(239, 227, 227));
+    box-shadow: 0px 0px 2px 1px white;
+    animation: jump 0.4s ease-in-out;
+}
+@keyframes jump {
+    0%{
+        width: 0px;
+        opacity: 0;
+    }
+    100%{
+        width: 250px;
+        opacity: 1;
+    }
+}
+.userName {
+    color: rgb(0, 132, 255);
+    display: block;
+    margin-left: 10px;
+}
+
+.lispan {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: block;
+    margin: 5px;
+}
+
+.linew {
+    color: black;
+    font-size: 14px;
+    font-family: '宋体';
+}
